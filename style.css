@@ -2,12 +2,9 @@
     
  border: #38444d ;
  background: #030518;
- 
- margin: 0px;
- padding: 0px;
- font: arial;
  vertical-align: baseline;
  color: #8899a6;
+ font-family: Arial, Helvetica, sans-serif;
  
 
 }
@@ -48,31 +45,18 @@
 
 .padding2{
 
-    margin-top: 0px;
-    margin-left: 300px;
-    width: 450px;
-    padding: 250px;
-    min-height: 100vh;
-    padding-top: 54px;
-    padding-bottom: 54px;
-    position: absolute;
-    flex-direction: column;
-    z-index: 1;
-    -webkit-box-align: center;
-    display: flex;
+    margin: auto;
+    width: 450px ;
+    padding: 2rem 5rem;
     text-align: justify;
-    color: #4a574a;
-
-    
+    display: block;
     
 }
 
 .active{
 
     color: #f231a5 ;
-    text-decoration: none; text-decoration-line: none; text-decoration-thickness: initial; text-decoration-style: initial; text-emphasis-color: inherit;
-    transition: color 0.2s ease 0s; transition-property: color; transition-duration: 0.2s; transition-timing-function: ease; transition-delay: 0s;
-    margin: 0px;
+    margin: 0px 300px;
     padding: 100px;
     border: 100px;
     vertical-align: baseline;
