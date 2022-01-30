@@ -44,9 +44,12 @@
 
 .padding2{
    
+   
+   
     position: absolute;
     height: 100vh;
     width: 450px ;
+    float: left;
     left: 500px;
     right: 500px;
     top: auto;
