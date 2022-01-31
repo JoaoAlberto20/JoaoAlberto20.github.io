@@ -1,13 +1,9 @@
 #body{
-    
- border: #38444d ;
+
  background: #030518;
- vertical-align: baseline;
  color: white;
  font-family: monospace;
  font-size: medium;
- line-height: 15px;
- 
 
 }
 
@@ -16,17 +12,13 @@
     position: fixed;
     width: 20rem;
     height: 100vh;
-    padding: 2rem;
     display: flex;
     align-items: center;
-    -webkit-box-align: center;
     background: #0a0c21;
     border-right: solid #38444d;
     flex-direction: column;
-    text-align: center;
-    transition: all 0.2s ease 0s;
-    z-index: 1;   
-    
+    text-align: center;    
+
 }
 
 .img{
@@ -44,12 +36,9 @@
 
 .padding2{
    
-   
-   
     position: absolute;
     height: 100vh;
     width: 450px ;
-    float: left;
     left: 500px;
     right: 500px;
     top: auto;
